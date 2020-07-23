@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B486418ED3C9A6A539D0F5 /* Pods_DoctorAppointment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199F3898ABCC55805852625E /* Pods_DoctorAppointment.framework */; };
+		59FD6C4924C9B78600904E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C4824C9B78600904E27 /* AppDelegate.swift */; };
+		59FD6C4B24C9B78600904E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C4A24C9B78600904E27 /* SceneDelegate.swift */; };
+		59FD6C4D24C9B78600904E27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C4C24C9B78600904E27 /* ContentView.swift */; };
+		59FD6C4F24C9B78C00904E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FD6C4E24C9B78C00904E27 /* Assets.xcassets */; };
+		59FD6C5224C9B78C00904E27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FD6C5124C9B78C00904E27 /* Preview Assets.xcassets */; };
+		59FD6C5524C9B78C00904E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FD6C5324C9B78C00904E27 /* LaunchScreen.storyboard */; };
+		59FD6C5E24C9B7A300904E27 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C5D24C9B7A300904E27 /* Doctor.swift */; };
+		59FD6C6124C9B7C600904E27 /* DoctorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6024C9B7C600904E27 /* DoctorList.swift */; };
+		59FD6C6424C9B7FB00904E27 /* HttpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6324C9B7FB00904E27 /* HttpTask.swift */; };
+		59FD6C6724C9BF4400904E27 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6624C9BF4400904E27 /* CircleProgressView.swift */; };
+		59FD6C6A24C9C82E00904E27 /* DoctorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6924C9C82E00904E27 /* DoctorRow.swift */; };
+		59FD6C6C24C9CC1200904E27 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6B24C9CC1200904E27 /* CircleImage.swift */; };
+		59FD6C6E24C9CCA500904E27 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6D24C9CCA500904E27 /* ImageLoader.swift */; };
+		59FD6C7024C9CFA200904E27 /* DoctorSpecRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C6F24C9CFA200904E27 /* DoctorSpecRow.swift */; };
+		59FD6C7224C9D3D400904E27 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD6C7124C9D3D400904E27 /* RoundedCorner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		199F3898ABCC55805852625E /* Pods_DoctorAppointment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorAppointment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DA45C8D9CF5A3C5B97FF04 /* Pods-DoctorAppointment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorAppointment.release.xcconfig"; path = "Target Support Files/Pods-DoctorAppointment/Pods-DoctorAppointment.release.xcconfig"; sourceTree = "<group>"; };
+		59FD6C4524C9B78600904E27 /* DoctorAppointment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorAppointment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FD6C4824C9B78600904E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59FD6C4A24C9B78600904E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59FD6C4C24C9B78600904E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59FD6C4E24C9B78C00904E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59FD6C5124C9B78C00904E27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59FD6C5424C9B78C00904E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59FD6C5624C9B78C00904E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59FD6C5D24C9B7A300904E27 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		59FD6C6024C9B7C600904E27 /* DoctorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorList.swift; sourceTree = "<group>"; };
+		59FD6C6324C9B7FB00904E27 /* HttpTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTask.swift; sourceTree = "<group>"; };
+		59FD6C6624C9BF4400904E27 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		59FD6C6924C9C82E00904E27 /* DoctorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorRow.swift; sourceTree = "<group>"; };
+		59FD6C6B24C9CC1200904E27 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		59FD6C6D24C9CCA500904E27 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		59FD6C6F24C9CFA200904E27 /* DoctorSpecRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSpecRow.swift; sourceTree = "<group>"; };
+		59FD6C7124C9D3D400904E27 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		B353C340B8242B81638DE174 /* Pods-DoctorAppointment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorAppointment.debug.xcconfig"; path = "Target Support Files/Pods-DoctorAppointment/Pods-DoctorAppointment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FD6C4224C9B78600904E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B486418ED3C9A6A539D0F5 /* Pods_DoctorAppointment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361310CBC6082CA0AF6ACC0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B353C340B8242B81638DE174 /* Pods-DoctorAppointment.debug.xcconfig */,
+				42DA45C8D9CF5A3C5B97FF04 /* Pods-DoctorAppointment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		59FD6C3C24C9B78600904E27 = {
+			isa = PBXGroup;
+			children = (
+				59FD6C4724C9B78600904E27 /* DoctorAppointment */,
+				59FD6C4624C9B78600904E27 /* Products */,
+				361310CBC6082CA0AF6ACC0C /* Pods */,
+				E4A92AF02864544BF0EE2355 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59FD6C4624C9B78600904E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C4524C9B78600904E27 /* DoctorAppointment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59FD6C4724C9B78600904E27 /* DoctorAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C6224C9B7E700904E27 /* core */,
+				59FD6C5F24C9B7B500904E27 /* views */,
+				59FD6C5C24C9B79700904E27 /* models */,
+				59FD6C4824C9B78600904E27 /* AppDelegate.swift */,
+				59FD6C4A24C9B78600904E27 /* SceneDelegate.swift */,
+				59FD6C4C24C9B78600904E27 /* ContentView.swift */,
+				59FD6C4E24C9B78C00904E27 /* Assets.xcassets */,
+				59FD6C5324C9B78C00904E27 /* LaunchScreen.storyboard */,
+				59FD6C5624C9B78C00904E27 /* Info.plist */,
+				59FD6C5024C9B78C00904E27 /* Preview Content */,
+			);
+			path = DoctorAppointment;
+			sourceTree = "<group>";
+		};
+		59FD6C5024C9B78C00904E27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C5124C9B78C00904E27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59FD6C5C24C9B79700904E27 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C5D24C9B7A300904E27 /* Doctor.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		59FD6C5F24C9B7B500904E27 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C6824C9C81300904E27 /* DoctorList */,
+				59FD6C6524C9BF2F00904E27 /* helperViews */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		59FD6C6224C9B7E700904E27 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C6324C9B7FB00904E27 /* HttpTask.swift */,
+				59FD6C6D24C9CCA500904E27 /* ImageLoader.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		59FD6C6524C9BF2F00904E27 /* helperViews */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C6624C9BF4400904E27 /* CircleProgressView.swift */,
+				59FD6C6B24C9CC1200904E27 /* CircleImage.swift */,
+				59FD6C6F24C9CFA200904E27 /* DoctorSpecRow.swift */,
+				59FD6C7124C9D3D400904E27 /* RoundedCorner.swift */,
+			);
+			path = helperViews;
+			sourceTree = "<group>";
+		};
+		59FD6C6824C9C81300904E27 /* DoctorList */ = {
+			isa = PBXGroup;
+			children = (
+				59FD6C6024C9B7C600904E27 /* DoctorList.swift */,
+				59FD6C6924C9C82E00904E27 /* DoctorRow.swift */,
+			);
+			path = DoctorList;
+			sourceTree = "<group>";
+		};
+		E4A92AF02864544BF0EE2355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199F3898ABCC55805852625E /* Pods_DoctorAppointment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59FD6C4424C9B78600904E27 /* DoctorAppointment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FD6C5924C9B78C00904E27 /* Build configuration list for PBXNativeTarget "DoctorAppointment" */;
+			buildPhases = (
+				FC183F4778DF76C3BAEDC211 /* [CP] Check Pods Manifest.lock */,
+				59FD6C4124C9B78600904E27 /* Sources */,
+				59FD6C4224C9B78600904E27 /* Frameworks */,
+				59FD6C4324C9B78600904E27 /* Resources */,
+				A5B074B86958061BBA93CD75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorAppointment;
+			productName = DoctorAppointment;
+			productReference = 59FD6C4524C9B78600904E27 /* DoctorAppointment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59FD6C3D24C9B78600904E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Salihcan Kahya";
+				TargetAttributes = {
+					59FD6C4424C9B78600904E27 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 59FD6C4024C9B78600904E27 /* Build configuration list for PBXProject "DoctorAppointment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59FD6C3C24C9B78600904E27;
+			productRefGroup = 59FD6C4624C9B78600904E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59FD6C4424C9B78600904E27 /* DoctorAppointment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FD6C4324C9B78600904E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FD6C5524C9B78C00904E27 /* LaunchScreen.storyboard in Resources */,
+				59FD6C5224C9B78C00904E27 /* Preview Assets.xcassets in Resources */,
+				59FD6C4F24C9B78C00904E27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5B074B86958061BBA93CD75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoctorAppointment/Pods-DoctorAppointment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoctorAppointment/Pods-DoctorAppointment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoctorAppointment/Pods-DoctorAppointment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC183F4778DF76C3BAEDC211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoctorAppointment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59FD6C4124C9B78600904E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FD6C4924C9B78600904E27 /* AppDelegate.swift in Sources */,
+				59FD6C6124C9B7C600904E27 /* DoctorList.swift in Sources */,
+				59FD6C6E24C9CCA500904E27 /* ImageLoader.swift in Sources */,
+				59FD6C4B24C9B78600904E27 /* SceneDelegate.swift in Sources */,
+				59FD6C7224C9D3D400904E27 /* RoundedCorner.swift in Sources */,
+				59FD6C6724C9BF4400904E27 /* CircleProgressView.swift in Sources */,
+				59FD6C5E24C9B7A300904E27 /* Doctor.swift in Sources */,
+				59FD6C6C24C9CC1200904E27 /* CircleImage.swift in Sources */,
+				59FD6C6A24C9C82E00904E27 /* DoctorRow.swift in Sources */,
+				59FD6C6424C9B7FB00904E27 /* HttpTask.swift in Sources */,
+				59FD6C7024C9CFA200904E27 /* DoctorSpecRow.swift in Sources */,
+				59FD6C4D24C9B78600904E27 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59FD6C5324C9B78C00904E27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FD6C5424C9B78C00904E27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59FD6C5724C9B78C00904E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59FD6C5824C9B78C00904E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59FD6C5A24C9B78C00904E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B353C340B8242B81638DE174 /* Pods-DoctorAppointment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DoctorAppointment/Preview Content\"";
+				DEVELOPMENT_TEAM = K42P7PK4NT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DoctorAppointment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salihcn.DoctorAppointment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59FD6C5B24C9B78C00904E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DA45C8D9CF5A3C5B97FF04 /* Pods-DoctorAppointment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DoctorAppointment/Preview Content\"";
+				DEVELOPMENT_TEAM = K42P7PK4NT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DoctorAppointment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salihcn.DoctorAppointment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59FD6C4024C9B78600904E27 /* Build configuration list for PBXProject "DoctorAppointment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FD6C5724C9B78C00904E27 /* Debug */,
+				59FD6C5824C9B78C00904E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FD6C5924C9B78C00904E27 /* Build configuration list for PBXNativeTarget "DoctorAppointment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FD6C5A24C9B78C00904E27 /* Debug */,
+				59FD6C5B24C9B78C00904E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59FD6C3D24C9B78600904E27 /* Project object */;
+}
